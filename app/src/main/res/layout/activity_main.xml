@@ -15,12 +15,40 @@
         android:background="#0089E0CF"
         android:fontFamily="@font/chelsea_market"
         android:text="Puppies!"
+        android:textColor="#0F6AF4"
         android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023" />
+        app:layout_constraintVertical_bias="0.051" />
+
+    <Button
+        android:id="@+id/button_main_random"
+        android:layout_width="290dp"
+        android:layout_height="81dp"
+        android:backgroundTint="#29AEE2"
+        android:fontFamily="@font/abeezee"
+        android:text="Get random puppy"
+        android:textColorLink="#4C95E4"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="652dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="256dp"
+        android:layout_height="83dp"
+        android:backgroundTint="#3F8BDE"
+        android:fontFamily="@font/abeezee"
+        android:text="Search by breed"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="510dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,3 +1,5 @@
+import com.android.build.api.dsl.ViewBinding
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
@@ -16,7 +18,9 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
-
+  buildFeatures{
+      viewBinding = true
+  }
     buildTypes {
         release {
             isMinifyEnabled = false
