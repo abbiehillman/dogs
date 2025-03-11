@@ -16,8 +16,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
     }
-    private fun fetchRandomImage():{
-
-    }
+//    private fun fetchRandomImage():{
+//
+//    }
 
 }
