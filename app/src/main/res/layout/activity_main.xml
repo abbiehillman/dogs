@@ -38,10 +38,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_searchBreed" />
+        app:layout_constraintTop_toBottomOf="@+id/button_main_searchBreed" />
 
     <Button
-        android:id="@+id/button_searchBreed"
+        android:id="@+id/button_main_searchBreed"
         android:layout_width="256dp"
         android:layout_height="83dp"
         android:layout_marginTop="440dp"
