@@ -9,48 +9,48 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView_main_title"
+        android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="17dp"
-        android:layout_marginTop="52dp"
         android:background="#0089E0CF"
         android:fontFamily="@font/chelsea_market"
         android:text="Puppies!"
         android:textColor="#0F6AF4"
         android:textSize="48sp"
-
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-
-        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051" />
 
     <Button
         android:id="@+id/button_main_random"
-        android:layout_width="309dp"
-        android:layout_height="70dp"
+        android:layout_width="290dp"
+        android:layout_height="81dp"
+        android:layout_marginBottom="44dp"
         android:backgroundTint="#29AEE2"
-        android:fontFamily="@font/chelsea_market"
+        android:fontFamily="@font/abeezee"
         android:text="Get random puppy"
         android:textColorLink="#4C95E4"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_main_searchBreed" />
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button_main_searchBreed"
         android:layout_width="256dp"
         android:layout_height="83dp"
-        android:layout_marginTop="440dp"
+        android:layout_marginBottom="60dp"
         android:backgroundTint="#3F8BDE"
-        android:fontFamily="@font/chelsea_market"
+        android:fontFamily="@font/abeezee"
         android:text="Search by breed"
         android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_main_random"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_main_title" />
+        app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
