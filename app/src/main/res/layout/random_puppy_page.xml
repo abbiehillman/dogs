@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:backgroundTint="#FBA7DC"
+    android:backgroundTintMode="multiply">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="330dp"
+        android:layout_height="381dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/snowdawg"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <TextView
+        android:id="@+id/textView_rand_title"
+        android:layout_width="374dp"
+        android:layout_height="151dp"
+        android:fontFamily="@font/chelsea_market"
+        android:gravity="center"
+        android:text="Random Dawg Generator"
+        android:textColor="#FFFFFF"
+        android:textSize="44sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.089"
+        tools:layout_editor_absoluteX="18dp" />
+
+    <Button
+        android:id="@+id/button_random_generateAgain"
+        android:layout_width="212dp"
+        android:layout_height="78dp"
+        android:backgroundTint="#E07ABA"
+        android:fontFamily="@font/abeezee"
+        android:text="Generate"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="592dp" />
+
+    <Button
+        android:id="@+id/button_back_toMainPage"
+        android:layout_width="282dp"
+        android:layout_height="82dp"
+        android:fontFamily="@font/abeezee"
+        android:text=" return to home"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="705dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
