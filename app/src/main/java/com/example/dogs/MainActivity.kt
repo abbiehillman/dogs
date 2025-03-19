@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
                 this,
                 RandomActivity::class.java
             )
-            newRandomActivityIntent.startActivity()
+            //launch activity
 
         }
 
