@@ -43,8 +43,6 @@ class MainActivity : AppCompatActivity() {
         }
 
     }
-//    private fun fetchRandomImage():{
-//
-//    }
+
 
 }

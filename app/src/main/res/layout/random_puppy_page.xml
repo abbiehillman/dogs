@@ -43,28 +43,14 @@
         android:id="@+id/button_random_generate"
         android:layout_width="212dp"
         android:layout_height="78dp"
-        android:layout_marginBottom="11dp"
+        android:layout_marginTop="108dp"
         android:backgroundTint="#E07ABA"
         android:fontFamily="@font/abeezee"
         android:text="Generate"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/button_back_toMainPage"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView_random_dog" />
 
-    <Button
-        android:id="@+id/button_back_toMainPage"
-        android:layout_width="282dp"
-        android:layout_height="82dp"
-        android:layout_marginTop="21dp"
-        android:layout_marginBottom="89dp"
-        android:fontFamily="@font/abeezee"
-        android:text=" return to home"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_random_generate" />
 </androidx.constraintlayout.widget.ConstraintLayout>
