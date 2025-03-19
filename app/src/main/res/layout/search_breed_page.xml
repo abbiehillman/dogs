@@ -6,33 +6,33 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    android:backgroundTint="#FBA7DC"
+    android:backgroundTint="#B9FAD3"
     android:backgroundTintMode="multiply">
 
     <ImageView
         android:id="@+id/imageView_searchByBreed_dog"
-        android:layout_width="330dp"
-        android:layout_height="381dp"
-        android:layout_marginTop="21dp"
-        android:layout_marginBottom="11dp"
-        app:layout_constraintBottom_toTopOf="@+id/button_random_generate"
+        android:layout_width="342dp"
+        android:layout_height="272dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/recyclerView_searchBreed"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_random_title"
+        app:layout_constraintTop_toBottomOf="@+id/textView_search_title"
         app:srcCompat="@drawable/snowdawg" />
 
     <TextView
-        android:id="@+id/textView_random_title"
-        android:layout_width="374dp"
-        android:layout_height="151dp"
+        android:id="@+id/textView_search_title"
+        android:layout_width="379dp"
+        android:layout_height="96dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="64dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="11dp"
         android:fontFamily="@font/chelsea_market"
         android:gravity="center"
-        android:text="Random Dawg Generator"
-        android:textColor="#FFFFFF"
+        android:text="Search by Breed"
+        android:textColor="#127169"
         android:textSize="44sp"
         app:layout_constraintBottom_toTopOf="@+id/imageView_searchByBreed_dog"
         app:layout_constraintEnd_toEndOf="parent"
@@ -40,18 +40,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.089" />
 
-    <Button
-        android:id="@+id/button_random_generate"
-        android:layout_width="242dp"
-        android:layout_height="97dp"
-        android:layout_marginTop="72dp"
-        android:backgroundTint="#E07ABA"
-        android:fontFamily="@font/abeezee"
-        android:text="Generate"
-        android:textSize="34sp"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_searchBreed"
+        android:layout_width="417dp"
+        android:layout_height="358dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView_searchByBreed_dog" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView_searchByBreed_dog"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

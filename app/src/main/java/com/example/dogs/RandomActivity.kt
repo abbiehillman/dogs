@@ -1,10 +1,8 @@
 package com.example.dogs
 
-import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.dogs.databinding.RandomPuppyPageBinding
 
@@ -18,9 +16,9 @@ class RandomActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = RandomPuppyPageBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        image = findViewById(R.id.imageView_random_dog)
+        image = findViewById(R.id.imageView_searchByBreed_dog)
         generateNewPuppy = findViewById(R.id.button_random_generate)
 
 
-
+    }
 }

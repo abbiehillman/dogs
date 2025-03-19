@@ -39,7 +39,11 @@ class MainActivity : AppCompatActivity() {
 
         breedSearch.setOnClickListener {
             Toast.makeText(this, "Clicked 2", Toast.LENGTH_SHORT).show()
-
+            val newSearchActivityIntent = Intent(
+                this,
+                SearchActivity::class.java
+            )
+            startActivity(newSearchActivityIntent)
         }
 
     }
